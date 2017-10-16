@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/personalcenterunlogined_iv_headform"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/head" />
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="23dp"
+            android:text="您还没有登录，如果您有旧时光账号请\t\t\t,如果您还没有旧时光账号请\t\t\t。" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="17dp"
+            android:text="登录"
+            android:textColor="@color/blue"
+             />
+        
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv1"
+            android:layout_alignLeft="@+id/tv2"
+            android:text="注册"
+            android:textColor="@color/blue" />
+
+    </RelativeLayout>
+
+</LinearLayout>

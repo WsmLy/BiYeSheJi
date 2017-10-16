@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.main1.MainActivity" 
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_launcher"
+            android:gravity="center"
+            android:onClick="Menu"
+            android:text="@string/menu" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/main_title"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/log"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_launcher"
+            android:gravity="center"
+            android:onClick="Log" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+		android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/Main_page"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:onClick="MainPage"
+            android:text="@string/main_page" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="30dp"
+            android:background="@color/blue_dark" />
+
+        <Button
+            android:id="@+id/Recommend"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:onClick="Recommend"
+            android:text="@string/recommend" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:background="@color/blue_dark" />
+
+        <Button
+            android:id="@+id/Shopping_Car"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:onClick="ShoppingCar"
+            android:text="@string/shopping_car" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:background="@color/blue_dark" />
+
+        <Button
+            android:id="@+id/Personal_Center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:onClick="PersonalCenter"
+            android:text="@string/personal_center" />
+    </LinearLayout>
+
+</RelativeLayout>

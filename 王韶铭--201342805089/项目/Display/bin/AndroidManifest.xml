@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.main1"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.personal.PersonalSetting"
+            android:icon="@color/transparent"
+            android:label="@string/settle"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <activity
+            android:name="com.example.personal.PersonalEdit"
+            android:icon="@color/transparent"
+            android:label="@string/data"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/test" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name"
+            android:theme="@style/test" >
+        </activity>
+        <activity
+            android:name="com.example.detail.DetailActivity"
+            android:icon="@color/transparent"
+            android:label="@string/goods"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <activity
+            android:name="com.example.buy.IndentActivity"
+            android:icon="@color/transparent"
+            android:label="@string/indent_title"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <activity
+            android:name=".GotoWebActivity"
+            android:label="@string/title_activity_goto_web" >
+        </activity>
+        <activity
+            android:name=".LauncherActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.commodity.CommodityUploadActivity"
+            android:label="@string/title_activity_commodity_upload"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <activity
+            android:name="com.example.buy.MyCommodityActivity"
+            android:label="@string/title_activity_my_commodity" >
+        </activity>
+        <activity
+            android:name="com.example.commodity.SearchActivity"
+            android:icon="@color/black"
+            android:label="@string/search"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".UserInformationActivity"
+            android:label="@string/title_activity_user_information" >
+        </activity>
+    </application>
+
+</manifest>

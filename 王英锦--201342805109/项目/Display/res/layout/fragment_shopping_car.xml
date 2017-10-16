@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/shoppingcar_detailInfo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="60dp"
+        android:visibility="gone" >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    
+    <TextView android:id="@+id/shoppingcar_itisnull"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="60dp"
+        android:visibility="visible"
+        android:text="您的购物车里没有物品"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/shoppingcar_shoppingSure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:layout_marginBottom="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/shoppingcar_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/num"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yuan"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/shoppingcar_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="Payment"
+            android:text="@string/payment" />
+    </LinearLayout>
+
+</LinearLayout>

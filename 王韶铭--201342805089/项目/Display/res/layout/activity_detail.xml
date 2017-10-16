@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"/>
+   <!--      android:background="@drawable/hehua" />-->
+
+    <TextView
+        android:id="@+id/goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:text="@string/goods"
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/bt_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff0000"
+        android:text="@string/buy"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bt_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/bt_buy"
+        android:background="#ff6633"
+        android:text="@string/car"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

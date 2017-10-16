@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+	
+	<package name="default" extends="json-default">
+		<action name="login" class="com.ghj.packageOfAction.LoginAction">
+		<result type="json"></result>
+		</action>
+		<action name="register" class="com.ghj.packageOfAction.RegisterAction">
+		<result type="json"></result>
+		</action>
+		<action name="show" class="com.ghj.packageOfAction.ShowAction">
+			<!-- <result name="success">/SuccessJsp.jsp</result>
+			<result name="error">/ErrorJsp.jsp</result> -->
+				<result type="json"></result>
+		</action>
+		<action name="search" class="com.ghj.packageOfAction.SearchAction">
+			<result type="json"></result>
+		</action>
+		<action name="upload" class="com.ghj.packageOfAction.UpLoadAction">
+		<result type="json"></result>
+		</action>
+		<action name="useredit" class="com.ghj.packageOfAction.UserEditAction">
+		<result type="json"></result>
+		</action>
+	</package>
+</struts>    

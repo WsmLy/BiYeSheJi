@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">旧时光旧物交易</string>
+    <string name="main_title">旧时光旧物交易平台</string>
+    <string name="welcome">欢迎使用\n旧时光旧物交易平台</string>
+    <string name="title_activity_my_commodity">aa</string>
+    <string name="title_activity_commodity_upload">商品发布</string>
+    <string name="a">商品名：</string>
+    <string name="b">请输入商品名</string>
+    <string name="c">单价：</string>
+    <string name="d">请输入每件的价格，最多小数点后两位</string>
+    <string name="e">简介：</string>
+    <string name="f">请输入商品描述</string>
+    <string name="g">图片：</string>
+    <string name="h">发布</string>
+    <string name="i">图片</string>
+
+    <!-- main -->
+    <string name="meirongxihu">美容洗护</string>
+    <string name="xuexishuben">学习书本</string>
+    <string name="jiajuyongpin">家居用品</string>
+    <string name="jiayongdianqi">家用电器</string>
+    <string name="dianzichanpin">电子产品</string>
+    <string name="muyingwanju">母婴玩具</string>
+    <string name="tiyuqicai">体育器材</string>
+    <string name="main_page">首页</string>
+    <string name="recommend">推荐</string>
+    <string name="shopping_car">购物车</string>
+    <string name="personal_center">个人中心</string>
+    <string name="menu">Menu</string>
+
+    <!-- LeftFragment -->
+    <string name="denglu">登录</string>
+    <string name="search">搜索</string>
+    <string name="ongotoweb">跳转到网页版</string>
+    <string name="contentus">联系我们</string>
+    <string name="fabu">商品发布</string>
+    <string name="ostishi">系统提示</string>
+    <string name="unLogined">您还没有登录旧时光</string>
+    <string name="cancel">取消</string>
+    <string name="contentus_detail">联系我们\nQQ：2899531791\n邮箱：2899531791@qq.com</string>
+
+    <!-- ShoppingCar -->
+    <string name="total">总计</string>
+    <string name="num">0.0</string>
+    <string name="yuan">元</string>
+    <string name="payment">结算</string>
+
+    <!-- PersonalCenter -->
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="edit">编辑</string>
+    <string name="public1">我发布的</string>
+    <string name="bought">我买到的</string>
+    <string name="sale">我卖出的</string>
+    <string name="exit">退出当前账号</string>
+    <string name="check">我的账单</string>
+    <string name="deliver">待发货</string>
+    <string name="receive">待收货</string>
+    <string name="settle">设置</string>
+    
+
+    <!-- personalsetting -->
+    <string name="update">检查更新</string>
+    <string name="help">帮助与反馈</string>
+    <string name="share">分享</string>
+    <string name="clear">清除缓存</string>
+    <string name="data">个人资料</string>
+    <string name="head">头像</string>
+    <string name="vipname">会员名</string>
+    <string name="code">我的二维码</string>
+    <string name="my_address">我的地址</string>
+
+    <!-- Login&Register -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget_text">忘记密码</string>
+    <string name="phone_login_text">手机登录</string>
+    <string name="phone_register_text">手机注册</string>
+    <string name="email_register_text">邮箱注册</string>
+    <string name="userNumber">请输入用户号</string>
+    <string name="userName">请输入用户名</string>
+    <string name="accountHint">请输入账号</string>
+    <string name="passwordHint">请输入密码</string>
+    <string name="passwordHint_sure">请再次输入密码</string>
+    <string name="phoneHint">请输入手机号</string>
+    <string name="emailHint">请输入邮箱号</string>
+    <string name="yanzhengHint">请输入验证码</string>
+    <string name="next_text">下一步</string>
+    <string name="clicktovercode">点击获取验证码</string>
+    <string name="sendtophone">验证码已发送到您的手机</string>
+    <string name="reclickononeminute">秒后重试</string>
+    <string name="deal">点击下一步表示已阅读并同意用户服务协议</string>
+
+    <!-- 详细信息界面 -->
+    <string name="goods">商品详情</string>
+    <string name="collect">收藏</string>
+    <string name="addcollect">已加入收藏夹</string>
+    <string name="addcar">已加入购物车</string>
+    <string name="buy">立即购买</string>
+    <string name="car">加入购物车</string>
+
+    <!-- 订单界面 -->
+    <string name="indent_title">确认订单</string>
+    <string name="order">我的订单</string>
+    <string name="buyer">收货人：</string>
+    <string name="phone">手机号：</string>
+    <string name="address">收货地址：</string>
+    <string name="way">配送方式：</string>
+    <string name="count">合计：</string>
+    <string name="yes">提交订单</string>
+    <string name="title_activity_goto_web">GotoWeb</string>
+    
+    <!-- 网页版页面 -->
+    <string name="action_settings_gotochrome">通过浏览器打开</string>
+    <!--<string name="url_web">http://market.trenfash.cn/Trenfash/Home/home.html</string>
+    <string name="url_web">http://192.168.76.1:8080/android_test/index.jsp</string>-->
+    <string name="url_web">http://192.168.191.1:8080/AndroidServer</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="title_activity_main1">MainActivity</string>
+    
+    <!-- 刷新及加载 -->
+    <string name="shanglajiazai">上拉加载更多</string>
+    <string name="zhengzaijiazai">正在加载...</string>
+    <string name="songkaijiazai">放开以加载</string>
+    <string name="xialashuaxin">下拉刷新</string>
+    <string name="zhengzaishuaxin">正在刷新...</string>
+    <string name="songkaishuaxin">放开以刷新</string>
+    
+    <!-- 商品 -->
+    
+    <string name="title_activity_user_information">用户信息</string>
+
+</resources>

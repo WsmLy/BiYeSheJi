@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:paddingTop="50dp"
+    android:id="@+id/fragment_left">
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="@string/denglu"
+        android:onClick="LoginUser" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="@string/search" 
+        android:onClick="Search"/>
+
+    <Button
+        android:id="@+id/fabu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:onClick="Fabu"
+        android:text="@string/fabu" />
+
+    <Button
+        android:id="@+id/contentus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="@string/contentus"
+        android:onClick="Contentus" />
+    <Button 
+        android:id="@+id/gotoweb"
+        android:onClick="GotoWeb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="@string/ongotoweb"/>
+
+
+    
+</LinearLayout>
